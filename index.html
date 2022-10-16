@@ -10,11 +10,11 @@
   <!-- GetStarted - A simple responsive Startpage
         Author: MrAlpha786  (github.con/MrAlpha786) -->
 
-  <title>Home</title>
+  <title>GABEstart</title>
 
   <link rel="stylesheet" href="styles.css" />
-  
-   <!-- JQUERY REQUIRED FOR LAST.FM SCROBBLER -->
+
+  <!-- JQUERY REQUIRED FOR LAST.FM SCROBBLER -->
   <script type="text/javascript" src="scripts/jquery.min.js"></script>
 
   <script type="text/javascript" src="scripts/lastfm.jquery.js"></script>
@@ -36,8 +36,14 @@
       }); /*]]>*/
   </script>
 </head>
-  
+
 <body>
+  <div class="container">
+    <h1>Hi, <span id="username" onclick="toggleMode()"></span></h1>
+
+    <div id="nowPlaying-container">
+      <div id="playingInfo"></div>
+    </div>
 
     <div id="search">
       <span id="search-favicon"></span>
@@ -66,6 +72,18 @@
         <div class="content" data-tab="tab-4"></div>
         <div class="content" data-tab="tab-5"></div>
       </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div id="footer-inner">
+      <a href="https://github.com/gabeweb/gabestart" target="_blank">GABEstart</a>
+      is a startpage forked from
+      <a href="https://github.com/MrAlpha786/getstarted" target="_blank">GetStarted</a>
+      including some elements from
+      <a href="https://codepen.io/andyfitz/pen/aZrKdV" target="_blank">The Deep Blue (waves)</a>
+      and distribuited under
+      <a href="https://github.com/gabeweb/gabestart/blob/main/LICENSE" target="_blank">GPL-3.0 license</a>.
     </div>
   </div>
 
