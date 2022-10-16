@@ -1,9 +1,9 @@
 // Username displayed in greeting.
-var userName = "gabeweb";
+var userName = "earthlings!";
 
 // Default Searchengine
 // Available: Bing DuckDuckGo Google Yahoo Yandex
-var searchEngine = "DuckDuckGo";
+var searchEngine = "Google";
 
 // Cards
 var cards = [
