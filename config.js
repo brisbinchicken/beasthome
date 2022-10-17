@@ -32,7 +32,7 @@ var cards = [
 	{
 		name: "TV",
 		bookmarks: {
-			">ABC iview": "https://iview.abc.net.au/",
+			"ABC iview": "https://iview.abc.net.au/",
 			"SBS Live": "https://www.sbs.com.au/ondemand/live",
 			"7 Plus": "https://7plus.com.au/live-tv",
 			"9 Now": "https://www.9now.com.au/live/channel-9",
