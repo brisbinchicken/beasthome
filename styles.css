@@ -227,7 +227,7 @@ button#clear-field img {
   background-color: var(--secondaryBg);
   display: none;
   flex-direction: column;
-  height: 36vh;
+  height: auto;
   overflow: auto;
   padding-bottom: 0.75em;
 }
