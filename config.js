@@ -10,7 +10,7 @@ var cards = [
 	{
 		name: "Streaming",
 		bookmarks: {
-			"Netflix": "https://www.netflix.co",
+			"Netflix": "https://www.netflix.com",
 			"Stan": "https://www.stan.com.au",
 			"Binge": "https://www.binge.com.au",
 			"Disney+": "https://www.disneyplus.com",
