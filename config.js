@@ -8,100 +8,48 @@ var searchEngine = "Google";
 // Cards
 var cards = [
 	{
-		name: "Email",
+		name: "Streaming",
 		bookmarks: {
-			"Aol Mail": "https://mail.aol.com",
-			"Google Mail": "https://mail.google.com",
-			"OnMail": "https://mail.onmail.com",
-			"Outlook": "https://mail.live.com",
-			"Proton Mail": "https://mail.proton.me",
-			"Yahoo Mail": "https://mail.yahoo.com",
-			"Yandex Mail": "https://mail.yandex.com"
+			"Netflix": "https://www.netflix.co",
+			"Stan": "https://www.stan.com.au",
+			"Binge": "https://www.binge.com.au",
+			"Disney+": "https://www.disneyplus.com",
+			"Paramount+": "https://www.paramountplus.com/au/",
+			"Prime Video": "https://www.primevideo.com"
 		}
 	},
 	{
-		name: "News",
+		name: "Pirate",
 		bookmarks: {
-			"AP News":"https://apnews.com",
-			"Ars Technica": "https://arstechnica.com",
-			"BBC News": "https://bbc.com",
-			"Boing Boing": "https://boingboing.net",
-			"CNET": "https://cnet.com",
-			"Consequence": "https://consequence.net",
-			"Digg": "https://digg.com",
-			"Forbes": "https://forbes.com",
-			"Mashable": "https://mashable.com",
-			"Newsweek":"https://newsweek.com",
-			"NY Times": "https://nytimes.com",
-			"NPR": "https://npr.org",
-			"Pitchfork": "https://pitchfork.com",
-			"Quartz":"https://qz.com",
-			"Reuters":"https://reuters.com",
-			"The Guardian":"https://theguardian.com",
-			"The Verge": "https://theverge.com",
-			"TIME":"https://time.com",
-			"TNW": "https://thenextweb.com",
-			"Vox":"https://vox.com",
-			"XDA": "https://xda-developers.com",
-			"ZDNET": "https://zdnet.com"
+			"Movies/TV HQ":"https://www3.musichq.net",
+			"Flixtor": "https://flixtor.video/home",
+			"PrimeWire": "https://primewire.id/home",
+			"Stream Search": "https://cse.google.com/cse?cx=006516753008110874046:cfdhwy9o57g#gsc.tab=0",
+			"Watch Cartoons": "https://www.wco.tv/",
+			"Watch Anime": "https://zoro.to/home"
 		}
 	},
 	{
-		name: "Social",
+		name: "TV",
 		bookmarks: {
-			"DEV": "https://dev.to",
-			"Discord": "https://discordapp.com",
-			"Facebook": "https://facebook.com",
-			"Instagram": "https://instagram.com/?theme=dark",
-			"Messenger": "https://messenger.com",
-			"Quora": "https://quora.com",
-			"Reddit": "https://reddit.com",
-			"Stack Exchange": "https://stackexchange.com",
-			"Telegram": "https://web.telegram.org",
-			"Tumblr": "https://tumblr.com",
-			"Twitter": "https://twitter.com",
-			"VK": "https://vk.com",
-			"WhatsApp": "https://web.whatsapp.com"
+			">ABC iview": "https://iview.abc.net.au/",
+			"SBS Live": "https://www.sbs.com.au/ondemand/live",
+			"7 Plus": "https://7plus.com.au/live-tv",
+			"9 Now": "https://www.9now.com.au/live/channel-9",
+			"10 Play": "https://10play.com.au/live",
+			"USA 24/7": "https://ustv247.tv/"
 		}
 	},
 	{
-		name: "Media",
+		name: "Other",
 		bookmarks: {
-			"Behance": "https://behance.net",
-			"Crumchyroll": "https://crunchyroll.com",
-			"Deviantart": "https://deviantart.com",
-			"Dribbble": "https://dribbble.com",
-			"Ello": "https://ello.co",
-			"Last.fm": "https://last.fm",
-			"Pluto TV": "https://pluto.tv",
-			"Runtime": "https://runtime.tv",
-			"Spotify": "https://open.spotify.com",
-			"Trakt.tv": "https://trakt.tv",
-			"YouTube": "https://youtube.com",
-			"YouTube Music": "https://music.youtube.com"
-		}
-	},
-	{
-		name: "Tools",
-		bookmarks: {
-			"Bitwarden": "https://vault.bitwarden.com",
-			"Coda": "https://coda.io",
-			"Dropbox": "https://dropbox.com",
-			"Figma": "https://figma.com",
-			"GitHub": "https://github.com",
-			"Google Docs": "https://docs.google.com",
-			"Google Drive": "https://drive.google.com",
-			"Google Passwords": "https://passwords.google.com",
-			"Google Translate": "https://translate.google.com",
-			"KeeWeb": "https://app.keeweb.info",
-			"Notion": "https://notion.so",
-			"Office 365": "https://office.com",
-			"OneDrive": "https://onedrive.com",
-			"Photopea": "https://photopea.com",
-			"VSCode": "https://vscode.dev",
-			"Vectr": "https://vectr.comm",
-			"Write.as": "https://write.as",
-			"Yandex Disk": "https://disk.yandex.com"
+			"YouTube": "https://www.youtube.com",
+			"Kayo Sports": "https://kayosports.com.au/",
+			"JRE Podcast": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+			"Sports Urge": "https://v2.sportsurge.net/",
+			"MMA Replays": "https://mmafull.com/index.html",
+			"Film Archive": "https://archive.org/details/movies"
 		}
 	}
+	
 ]
